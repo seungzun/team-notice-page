@@ -6,12 +6,12 @@
 <title>팀 공지</title>
 <style>
   body{margin:0;font-family:system-ui,-apple-system,sans-serif;
-       display:grid;place-items:center;min-height:100vh;
+       display:grid;grid-template-rows:1fr auto;place-items:center;min-height:100vh;
        background:#f5f6f8;color:#0e1116}
   .notice{font-size:52px;font-weight:700;letter-spacing:-.02em}
   p{font-size:20px;color:#565e6a;margin-top:16px;text-align:center}
-  .quote{position:fixed;bottom:24px;left:0;right:0;text-align:center;
-         font-size:14px;color:#8a919c}
+  footer{display:grid;gap:6px;text-align:center;
+         font-size:14px;color:#8a919c;padding:24px 16px}
 </style>
 </head>
 <body>
@@ -19,6 +19,9 @@
     <div class="notice">3월 정기 점검 안내</div>
     <p>매월 첫째 주 화요일 02:00 ~ 04:00</p>
   </main>
-  <div class="quote">"삶이 있는 한 희망은 있다" - 키케로 (by spark)</div>
+  <footer>
+    <div class="quote">"삶이 있는 한 희망은 있다" - 키케로 (by spark)</div>
+    <div class="credit">여이 디자인스튜디오</div>
+  </footer>
 </body>
 </html>
